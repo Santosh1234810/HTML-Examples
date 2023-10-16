@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Simple Table</h2>
+    <table border="2">
+        <tr>
+            <th>Id</th> <th>Name</th> <th>Post</th> <th>Salary</th>
+        </tr>
+
+        <tr>
+            <td>101</td> <td>Ganesh</td> <td>Developer</td> <td>50000</td>
+        </tr>
+
+        <tr>
+            <td>102</td> <td>Mahesh</td> <td> React Developer</td> <td>55000</td>
+        </tr>
+
+        <tr>
+            <td>103</td> <td>Yogesh</td> <td>Tester</td> <td>60000</td>
+        </tr>
+
+        <tr>
+            <td>104</td> <td>Sanjay</td> <td>Tester</td> <td>65000</td>
+        </tr>
+
+        <tr>
+            <td>105</td> <td>Prasad</td> <td>Developer</td> <td>55000</td>
+        </tr>
+    </table>
+
+    <h2>Table With Colspan</h2>
+
+    <table border="2" width="50%">
+        <tr>
+            <td colspan="2">A</td> <td>B</td>
+        </tr>
+        
+        <tr>
+            <td>C</td> <td>D</td><td>E</td>
+        </tr>
+
+        <tr>
+            <td>F</td> <td colspan="2">G</td>
+        </tr>
+
+    </table>
+
+    <h2>Table With rowspan</h2>
+
+    <table border="2" width="50%">
+        <tr>
+            <td rowspan="2" bgcolor="orange">A</td> <td bgcolor="brown">B</td><td bgcolor="green">C</td><td bgcolor="grey">X</td>
+        </tr>
+
+        <tr>
+            <td bgcolor="red">D</td> <td bgcolor="yellow">E</td> <td rowspan="3" bgcolor="orange">F</td>
+        </tr>
+
+        <tr>
+            <td bgcolor="aqua">G</td><td bgcolor="pink">H</td><td bgcolor="blue">I</td>
+        </tr>
+    </table>
+
+    <h2>Table with rowspan and colspan</h2>
+    <table border="2" width="50%">
+        <tr>
+            <td colspan="2" rowspan="2" bgcolor="orange">A</td> <td>B</td>
+        </tr>
+
+        <tr>
+            <td >C</td>
+        </tr>
+
+        <tr>
+            <td>D</td> <td>E</td> <td>F</td>
+        </tr>
+    </table>
+</body>
+</html>

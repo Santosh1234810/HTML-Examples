@@ -1,0 +1,133 @@
+18/03/23
+html: it is used to create the structure of web page or website.
+    --> it is used to display data to user on browser.
+    --> latest version of html is html5.
+    --> It is a Hyper Text Markup Language.
+    --> it is tag basis language.
+
+    <tag>
+    --> in html we have 2 types of tag.
+    1. Paired tag.
+    2. unpaired tag.
+                                                                          
+    --> html file must be saved with .html or .htm extension.
+
+    head: it conatains meta data and external links.
+    body: in this we write data or information to display on browser.
+
+    Symantic elements: the elements with specific meaning.
+
+    Why is necesarry Symantic elements introduces?
+    --> in old version of html there were no Symantic elements for that developers used there own naming convention for the elements. 
+	This may difficult for the search engine to identify the correct content in your website. Now Symantic elements helps both 
+	search engine as well as developers to identify the correct content.
+    
+
+    ***What is difference between html and html5?
+    features of html5.
+    -->
+        Symantic elements get introduces.				
+        new input types, new tag/attributes get introduces.
+        multimedia elements get introduces in html5
+        html API get introduces
+        -->GEO Location 
+            ==> it returns users current position.
+
+        -->Drag and drop 
+            ==> we can drag an object from one location and drop into another.
+
+        -->web worker 
+            ==> It is small JavaScript which execute at the backend of browser without affecting its current execution.
+
+        -->***web storage 
+            ==> It is used to stores users data on browser.
+            it has two types:
+            1. Local storage: it stores users data permanently on the browser
+            2. session storage: it stores user data for paricular period of time on the browser.
+
+        -->SSE(Server Sent Event)
+            ==>it allows us to get automatic update from server.
+
+
+***What is the difference between Angular and React:
+-->React is library.
+--> React design and maintained by Facebook
+-->Angular is framework.
+-->Angular is design and maintained by Google.
+-->in React we can perform one way communication.
+--> in Angular we can perform two way communication.
+--> React is little bit faster than Angular beacause of virtual DOM.
+--> we can design.
+--> In angular we can used typeScript 
+--> In React we can use JavaScript
+
+
+-->Angular is used to create UI and perform multiple operations.
+--> Angular is 
+-->React is used to create rich UI.
+-->Angular is used to create UI as well as 
+
+<starting-tag attribute = "values">contents</closing-tag>
+
+attribute: it gives us additonal information about tag.
+--attribute always write in starting tag.
+
+*Basic tag
+*new tag
+*marque tag
+
+*In html we have two types of elements
+1. Block elements:- The elements which always starts on new line
+                -it takes full width of screen
+                ex.- h1-h6, p, div
+2. Inline elements: The elements which never starts on new line 
+                    - it takes required width of the screen.
+                    - b, strong, img, a
+
+*Types of List in Html
+==>There are three types of list in html.
+1. Order List: list of items in particular order 
+              -order list has types: number, Capital and Small alphabets and Roman
+2. Unorder List: list of items not in a particular order.
+                unorder list has types: disc, circle, square, none.
+3. Description List: it is dl, dt,dd
+
+*How to insert image
+*How to insert Video
+*How to insert Audio
+================================================================================
+20/03/23
+
+*How to create a links
+Home Work: create a image as link.
+
+*Use of Iframe tag
+-->to insert google map into website.
+-->we can insert you tube videos.
+-->insert one website into another.
+
+Steps to get google map in website.
+step-1: open google map.
+step-2: search location which you want
+step-3: click on share option==> click
+step-4: copy the google map link
+step-5: and paste it in the html code.
+
+*Table: it is collection of rows and columns
+*table with colspan
+*table with rowspan
+
+=================================================================================
+21/3/23
+Special code
+
+*form
+-->it is use to get data from user
+
+
+
+
+
+
+
+

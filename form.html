@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <center>
+        <form>
+            <div>
+                <label for="">Enter your Name: </label>
+                <input type="text" name="uname" placeholder="Enter your name"    minlength="3" pattern="[a-zA-Z ]{3-20}" required>
+                <br>
+            </div> <br>
+            <div>
+                <label >Enter the password</label>
+                <input type="password" placeholder="Enter the password: " required>
+            </div> <br>
+
+            <div>
+                <label>Enter the e-mail: </label>
+                <input type="email" name="umail" id="" placeholder="Enter the E-mail" required>
+            </div><br>
+
+            <div>
+                <label>Enter the Contact no.: </label>
+                <input type="tel"name="ucontact" placeholder="Enter the contact no." required>
+            </div>
+            <br>
+
+            <div>
+                <label>Select DOB</label>
+                <input type="date">
+            </div>
+            <div>
+                <label>Select the Gender</label>
+                <input type="radio" name="gender" value="male" checked required>Male
+                <input type="radio" name="gender" value="female" required>Female
+            </div><br>
+
+            <div>
+                <label">Select Your Qualification</label>
+                <input type="checkbox" name="edu" value="ssc">SSC
+                <input type="checkbox" name="edu" value="HSC">HSC
+                <input type="checkbox" name="edu" value="ug">UG
+                <input type="checkbox" name="edu" value="pg">PG
+            </div>
+
+            <div>
+                <label>Select Your Course</label>
+                <select name="course">
+                    <option value="">Select Your Course</option>
+                    <option value="angular">Angular</option>
+                    <option value="react">React</option>
+                    <option value="java">Java</option>
+                    <option value="python">Python</option>
+                </select>
+            </div><br>
+
+            <div>
+                <label>Enter the fees: </label>
+                <input type="number" readonly disabled value="10000">
+            </div><br>
+
+            <fieldset>
+                <legend>Bank Details</legend>
+                <label>Enter the Card Number: </label>
+                <input type="text" placeholder="Enter your card number">
+                <label>Enter the IFSC Code: </label>
+                <input type="text" placeholder="Enter the IFSC Code"><br>
+                <label>Enter the MICR Code: </label> <br>
+                <input type="text" placeholder="Enter the MICR Code"> <br>
+                <label>Enter the CVV Number</label>
+                <input type="text" placeholder="Enter CVV number">
+            </fieldset><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </center>
+</body>
+</html>
